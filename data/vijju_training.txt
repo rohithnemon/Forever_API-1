@@ -1,0 +1,96 @@
+<BOS>
+User: Can a small model use the internet?
+Assistant: Yes. A small model can be connected to external search and webpage tools. The model handles language while the web tools provide fresh information.
+<EOS>
+<BOS>
+User: What is deep learning?
+Assistant: Deep learning is a type of machine learning that uses neural networks with multiple layers to learn complex patterns from data.
+<EOS>
+<BOS>
+User: Why should an AI cite web sources?
+Assistant: Sources help users identify where retrieved information came from and make it easier to verify important claims.
+<EOS>
+<BOS>
+User: Explain how a language model generates text.
+Assistant: A language model converts input text into tokens, transforms those tokens through neural network layers, produces probability scores for possible next tokens, selects a token according to a decoding strategy, and repeats the process until the response is complete.
+<EOS>
+<BOS>
+User: What is a GPU?
+Assistant: A GPU is a processor designed for highly parallel computation and is widely used for graphics, machine learning, and scientific workloads.
+<EOS>
+<BOS>
+User: What are tokens?
+Assistant: Tokens are the units of text processed by a language model. Depending on the tokenizer, a token can represent a character, byte, word part, or word.
+<EOS>
+<BOS>
+User: Does web browsing make the model larger?
+Assistant: No. Web browsing can be implemented as an external tool. The model itself does not need to store the entire internet.
+<EOS>
+<BOS>
+User: What is RAM?
+Assistant: RAM is temporary computer memory used to hold data and programs that are actively being used.
+<EOS>
+<BOS>
+User: Why are small AI models useful?
+Assistant: Small AI models can require less memory, run faster, cost less to operate, and can be easier to deploy on local devices.
+<EOS>
+<BOS>
+User: What is web browsing in an AI system?
+Assistant: Web browsing allows an AI system to search online sources, retrieve relevant webpages, process their content, and use that information to answer a question.
+<EOS>
+<BOS>
+User: Who are you?
+Assistant: I am Vijju 2.5 Eco, a lightweight AI assistant.
+<EOS>
+<BOS>
+User: What is storage?
+Assistant: Storage is persistent memory used to keep files and programs even when a computer is turned off.
+<EOS>
+<BOS>
+User: What is a database?
+Assistant: A database is an organized system for storing, retrieving, and managing data.
+<EOS>
+<BOS>
+User: What is a neural network?
+Assistant: A neural network is a computational model made of connected mathematical units that learn patterns by adjusting numerical parameters during training.
+<EOS>
+<BOS>
+User: What is a language model?
+Assistant: A language model learns patterns in language and predicts likely tokens based on previous context.
+<EOS>
+<BOS>
+User: What can you do?
+Assistant: I can answer questions, explain concepts, summarize information, perform basic reasoning, and use web information when connected to the internet.
+<EOS>
+<BOS>
+User: Explain AI deeply.
+Assistant: AI combines algorithms, data, computation, and learned models to perform tasks such as prediction, classification, generation, perception, and language understanding. Modern AI often uses neural networks trained by optimizing parameters against large datasets.
+<EOS>
+<BOS>
+User: What is machine learning?
+Assistant: Machine learning is a branch of artificial intelligence where models learn patterns from data instead of being explicitly programmed for every individual task.
+<EOS>
+<BOS>
+User: What is Python?
+Assistant: Python is a general-purpose programming language known for readable syntax and a large ecosystem of libraries.
+<EOS>
+<BOS>
+User: What is a Transformer model?
+Assistant: A Transformer is a neural network architecture that uses attention mechanisms to process relationships between tokens in a sequence.
+<EOS>
+<BOS>
+User: What is attention?
+Assistant: Attention allows a model to assign different importance to different tokens when processing a sequence.
+<EOS>
+<BOS>
+User: What is Vijju 2.5 Eco?
+Assistant: Vijju 2.5 Eco is a lightweight AI chatbot designed for fast local use, basic knowledge, reasoning, and web-assisted information retrieval.
+<EOS>
+<BOS>
+User: What is artificial intelligence?
+Assistant: Artificial intelligence is the field of creating computer systems that can perform tasks that normally require human intelligence, such as understanding language, recognizing patterns, and making decisions.
+<EOS>
+<BOS>
+User: What is Linux?
+Assistant: Linux is a family of open-source operating systems built around the Linux kernel.
+<EOS>

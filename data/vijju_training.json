@@ -1,0 +1,98 @@
+[
+  {
+    "question": "User: Can a small model use the internet?\nAssistant:",
+    "answer": "Yes. A small model can be connected to external search and webpage tools. The model handles language while the web tools provide fresh information."
+  },
+  {
+    "question": "User: What is deep learning?\nAssistant:",
+    "answer": "Deep learning is a type of machine learning that uses neural networks with multiple layers to learn complex patterns from data."
+  },
+  {
+    "question": "User: Why should an AI cite web sources?\nAssistant:",
+    "answer": "Sources help users identify where retrieved information came from and make it easier to verify important claims."
+  },
+  {
+    "question": "User: Explain how a language model generates text.\nAssistant:",
+    "answer": "A language model converts input text into tokens, transforms those tokens through neural network layers, produces probability scores for possible next tokens, selects a token according to a decoding strategy, and repeats the process until the response is complete."
+  },
+  {
+    "question": "User: What is a GPU?\nAssistant:",
+    "answer": "A GPU is a processor designed for highly parallel computation and is widely used for graphics, machine learning, and scientific workloads."
+  },
+  {
+    "question": "User: What are tokens?\nAssistant:",
+    "answer": "Tokens are the units of text processed by a language model. Depending on the tokenizer, a token can represent a character, byte, word part, or word."
+  },
+  {
+    "question": "User: Does web browsing make the model larger?\nAssistant:",
+    "answer": "No. Web browsing can be implemented as an external tool. The model itself does not need to store the entire internet."
+  },
+  {
+    "question": "User: What is RAM?\nAssistant:",
+    "answer": "RAM is temporary computer memory used to hold data and programs that are actively being used."
+  },
+  {
+    "question": "User: Why are small AI models useful?\nAssistant:",
+    "answer": "Small AI models can require less memory, run faster, cost less to operate, and can be easier to deploy on local devices."
+  },
+  {
+    "question": "User: What is web browsing in an AI system?\nAssistant:",
+    "answer": "Web browsing allows an AI system to search online sources, retrieve relevant webpages, process their content, and use that information to answer a question."
+  },
+  {
+    "question": "User: Who are you?\nAssistant:",
+    "answer": "I am Vijju 2.5 Eco, a lightweight AI assistant."
+  },
+  {
+    "question": "User: What is storage?\nAssistant:",
+    "answer": "Storage is persistent memory used to keep files and programs even when a computer is turned off."
+  },
+  {
+    "question": "User: What is a database?\nAssistant:",
+    "answer": "A database is an organized system for storing, retrieving, and managing data."
+  },
+  {
+    "question": "User: What is a neural network?\nAssistant:",
+    "answer": "A neural network is a computational model made of connected mathematical units that learn patterns by adjusting numerical parameters during training."
+  },
+  {
+    "question": "User: What is a language model?\nAssistant:",
+    "answer": "A language model learns patterns in language and predicts likely tokens based on previous context."
+  },
+  {
+    "question": "User: What can you do?\nAssistant:",
+    "answer": "I can answer questions, explain concepts, summarize information, perform basic reasoning, and use web information when connected to the internet."
+  },
+  {
+    "question": "User: Explain AI deeply.\nAssistant:",
+    "answer": "AI combines algorithms, data, computation, and learned models to perform tasks such as prediction, classification, generation, perception, and language understanding. Modern AI often uses neural networks trained by optimizing parameters against large datasets."
+  },
+  {
+    "question": "User: What is machine learning?\nAssistant:",
+    "answer": "Machine learning is a branch of artificial intelligence where models learn patterns from data instead of being explicitly programmed for every individual task."
+  },
+  {
+    "question": "User: What is Python?\nAssistant:",
+    "answer": "Python is a general-purpose programming language known for readable syntax and a large ecosystem of libraries."
+  },
+  {
+    "question": "User: What is a Transformer model?\nAssistant:",
+    "answer": "A Transformer is a neural network architecture that uses attention mechanisms to process relationships between tokens in a sequence."
+  },
+  {
+    "question": "User: What is attention?\nAssistant:",
+    "answer": "Attention allows a model to assign different importance to different tokens when processing a sequence."
+  },
+  {
+    "question": "User: What is Vijju 2.5 Eco?\nAssistant:",
+    "answer": "Vijju 2.5 Eco is a lightweight AI chatbot designed for fast local use, basic knowledge, reasoning, and web-assisted information retrieval."
+  },
+  {
+    "question": "User: What is artificial intelligence?\nAssistant:",
+    "answer": "Artificial intelligence is the field of creating computer systems that can perform tasks that normally require human intelligence, such as understanding language, recognizing patterns, and making decisions."
+  },
+  {
+    "question": "User: What is Linux?\nAssistant:",
+    "answer": "Linux is a family of open-source operating systems built around the Linux kernel."
+  }
+]

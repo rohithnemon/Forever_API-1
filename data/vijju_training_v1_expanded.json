@@ -1,0 +1,427 @@
+[
+  {
+    "question": "What is artificial intelligence?",
+    "answer": "Artificial intelligence, or AI, is the field of building computer systems that can perform tasks that normally require human intelligence, such as understanding language, recognizing patterns, reasoning, learning, and making decisions.",
+    "text": "<BOS>\nUser: What is artificial intelligence?\nAssistant: Artificial intelligence, or AI, is the field of building computer systems that can perform tasks that normally require human intelligence, such as understanding language, recognizing patterns, reasoning, learning, and making decisions.\n<EOS>\n"
+  },
+  {
+    "question": "What is AI?",
+    "answer": "AI is technology that enables computers to perform tasks involving learning, reasoning, perception, language understanding, and decision making.",
+    "text": "<BOS>\nUser: What is AI?\nAssistant: AI is technology that enables computers to perform tasks involving learning, reasoning, perception, language understanding, and decision making.\n<EOS>\n"
+  },
+  {
+    "question": "What is machine learning?",
+    "answer": "Machine learning is a branch of AI in which a model learns patterns from data and uses those patterns to make predictions or decisions.",
+    "text": "<BOS>\nUser: What is machine learning?\nAssistant: Machine learning is a branch of AI in which a model learns patterns from data and uses those patterns to make predictions or decisions.\n<EOS>\n"
+  },
+  {
+    "question": "What is deep learning?",
+    "answer": "Deep learning is a type of machine learning that uses neural networks with multiple layers to learn complex patterns from data.",
+    "text": "<BOS>\nUser: What is deep learning?\nAssistant: Deep learning is a type of machine learning that uses neural networks with multiple layers to learn complex patterns from data.\n<EOS>\n"
+  },
+  {
+    "question": "What is a neural network?",
+    "answer": "A neural network is a machine learning model made of connected computational units called neurons. It learns patterns by adjusting numerical weights during training.",
+    "text": "<BOS>\nUser: What is a neural network?\nAssistant: A neural network is a machine learning model made of connected computational units called neurons. It learns patterns by adjusting numerical weights during training.\n<EOS>\n"
+  },
+  {
+    "question": "What is a model in AI?",
+    "answer": "An AI model is a mathematical system whose parameters are learned from data. After training, the model can process new inputs and produce predictions or generated outputs.",
+    "text": "<BOS>\nUser: What is a model in AI?\nAssistant: An AI model is a mathematical system whose parameters are learned from data. After training, the model can process new inputs and produce predictions or generated outputs.\n<EOS>\n"
+  },
+  {
+    "question": "What is training?",
+    "answer": "Training is the process of adjusting a model's parameters using data so that the model becomes better at its target task.",
+    "text": "<BOS>\nUser: What is training?\nAssistant: Training is the process of adjusting a model's parameters using data so that the model becomes better at its target task.\n<EOS>\n"
+  },
+  {
+    "question": "What is inference?",
+    "answer": "Inference is the process of using a trained model to produce an output for new input data.",
+    "text": "<BOS>\nUser: What is inference?\nAssistant: Inference is the process of using a trained model to produce an output for new input data.\n<EOS>\n"
+  },
+  {
+    "question": "What is a parameter?",
+    "answer": "A parameter is a numerical value learned by a neural network during training. Large neural networks can contain millions, billions, or more parameters.",
+    "text": "<BOS>\nUser: What is a parameter?\nAssistant: A parameter is a numerical value learned by a neural network during training. Large neural networks can contain millions, billions, or more parameters.\n<EOS>\n"
+  },
+  {
+    "question": "What are weights?",
+    "answer": "Weights are learned numerical parameters in a neural network. They control how strongly different signals affect the model's computations.",
+    "text": "<BOS>\nUser: What are weights?\nAssistant: Weights are learned numerical parameters in a neural network. They control how strongly different signals affect the model's computations.\n<EOS>\n"
+  },
+  {
+    "question": "What is a language model?",
+    "answer": "A language model is a model trained to learn patterns in language and estimate or generate possible next tokens based on previous tokens.",
+    "text": "<BOS>\nUser: What is a language model?\nAssistant: A language model is a model trained to learn patterns in language and estimate or generate possible next tokens based on previous tokens.\n<EOS>\n"
+  },
+  {
+    "question": "How does a language model generate text?",
+    "answer": "A language model converts input text into tokens, processes them through neural network layers, calculates probabilities for possible next tokens, selects a token, and repeats the process.",
+    "text": "<BOS>\nUser: How does a language model generate text?\nAssistant: A language model converts input text into tokens, processes them through neural network layers, calculates probabilities for possible next tokens, selects a token, and repeats the process.\n<EOS>\n"
+  },
+  {
+    "question": "What is a token?",
+    "answer": "A token is a unit of text processed by a language model. Depending on the tokenizer, a token can represent a character, byte, word, or part of a word.",
+    "text": "<BOS>\nUser: What is a token?\nAssistant: A token is a unit of text processed by a language model. Depending on the tokenizer, a token can represent a character, byte, word, or part of a word.\n<EOS>\n"
+  },
+  {
+    "question": "What is tokenization?",
+    "answer": "Tokenization converts text into a sequence of tokens that a neural network can process.",
+    "text": "<BOS>\nUser: What is tokenization?\nAssistant: Tokenization converts text into a sequence of tokens that a neural network can process.\n<EOS>\n"
+  },
+  {
+    "question": "Why do language models use tokens?",
+    "answer": "Neural networks operate on numerical representations, so text is converted into tokens and then into numerical IDs before being processed.",
+    "text": "<BOS>\nUser: Why do language models use tokens?\nAssistant: Neural networks operate on numerical representations, so text is converted into tokens and then into numerical IDs before being processed.\n<EOS>\n"
+  },
+  {
+    "question": "What is next-token prediction?",
+    "answer": "Next-token prediction is the task of predicting the token that is most appropriate to follow a sequence of previous tokens.",
+    "text": "<BOS>\nUser: What is next-token prediction?\nAssistant: Next-token prediction is the task of predicting the token that is most appropriate to follow a sequence of previous tokens.\n<EOS>\n"
+  },
+  {
+    "question": "What is context length?",
+    "answer": "Context length is the maximum number of tokens a model can process as context during one operation.",
+    "text": "<BOS>\nUser: What is context length?\nAssistant: Context length is the maximum number of tokens a model can process as context during one operation.\n<EOS>\n"
+  },
+  {
+    "question": "What is a vocabulary?",
+    "answer": "A vocabulary is the collection of tokens that a tokenizer can represent using token IDs.",
+    "text": "<BOS>\nUser: What is a vocabulary?\nAssistant: A vocabulary is the collection of tokens that a tokenizer can represent using token IDs.\n<EOS>\n"
+  },
+  {
+    "question": "What is an embedding?",
+    "answer": "An embedding converts discrete token IDs into continuous numerical vectors that neural networks can process.",
+    "text": "<BOS>\nUser: What is an embedding?\nAssistant: An embedding converts discrete token IDs into continuous numerical vectors that neural networks can process.\n<EOS>\n"
+  },
+  {
+    "question": "What is an embedding dimension?",
+    "answer": "Embedding dimension is the number of numerical values used to represent each token as a vector.",
+    "text": "<BOS>\nUser: What is an embedding dimension?\nAssistant: Embedding dimension is the number of numerical values used to represent each token as a vector.\n<EOS>\n"
+  },
+  {
+    "question": "What is a Transformer?",
+    "answer": "A Transformer is a neural network architecture that uses attention mechanisms to process relationships between tokens. It is widely used for language models.",
+    "text": "<BOS>\nUser: What is a Transformer?\nAssistant: A Transformer is a neural network architecture that uses attention mechanisms to process relationships between tokens. It is widely used for language models.\n<EOS>\n"
+  },
+  {
+    "question": "What is attention?",
+    "answer": "Attention allows a model to calculate how strongly different tokens should influence one another when processing a sequence.",
+    "text": "<BOS>\nUser: What is attention?\nAssistant: Attention allows a model to calculate how strongly different tokens should influence one another when processing a sequence.\n<EOS>\n"
+  },
+  {
+    "question": "What is self-attention?",
+    "answer": "Self-attention allows each token in a sequence to interact with other tokens in the same sequence and calculate their relevance.",
+    "text": "<BOS>\nUser: What is self-attention?\nAssistant: Self-attention allows each token in a sequence to interact with other tokens in the same sequence and calculate their relevance.\n<EOS>\n"
+  },
+  {
+    "question": "What is causal attention?",
+    "answer": "Causal attention prevents a language model from using future tokens when predicting the next token.",
+    "text": "<BOS>\nUser: What is causal attention?\nAssistant: Causal attention prevents a language model from using future tokens when predicting the next token.\n<EOS>\n"
+  },
+  {
+    "question": "Why is causal masking used?",
+    "answer": "Causal masking ensures that each position can only attend to earlier positions and itself during autoregressive language-model training.",
+    "text": "<BOS>\nUser: Why is causal masking used?\nAssistant: Causal masking ensures that each position can only attend to earlier positions and itself during autoregressive language-model training.\n<EOS>\n"
+  },
+  {
+    "question": "What is a Transformer layer?",
+    "answer": "A Transformer layer usually contains attention operations, normalization, and a feed-forward neural network that transform token representations.",
+    "text": "<BOS>\nUser: What is a Transformer layer?\nAssistant: A Transformer layer usually contains attention operations, normalization, and a feed-forward neural network that transform token representations.\n<EOS>\n"
+  },
+  {
+    "question": "What is a feed-forward network?",
+    "answer": "A feed-forward network applies learned transformations independently to each token representation after attention processing.",
+    "text": "<BOS>\nUser: What is a feed-forward network?\nAssistant: A feed-forward network applies learned transformations independently to each token representation after attention processing.\n<EOS>\n"
+  },
+  {
+    "question": "What is multi-head attention?",
+    "answer": "Multi-head attention runs several attention mechanisms in parallel so the model can learn different types of relationships between tokens.",
+    "text": "<BOS>\nUser: What is multi-head attention?\nAssistant: Multi-head attention runs several attention mechanisms in parallel so the model can learn different types of relationships between tokens.\n<EOS>\n"
+  },
+  {
+    "question": "What is LayerNorm?",
+    "answer": "Layer normalization normalizes neural network activations and helps stabilize the training process.",
+    "text": "<BOS>\nUser: What is LayerNorm?\nAssistant: Layer normalization normalizes neural network activations and helps stabilize the training process.\n<EOS>\n"
+  },
+  {
+    "question": "Why are Transformers useful for language?",
+    "answer": "Transformers can model relationships between tokens across a context window and can be trained efficiently using parallel computation.",
+    "text": "<BOS>\nUser: Why are Transformers useful for language?\nAssistant: Transformers can model relationships between tokens across a context window and can be trained efficiently using parallel computation.\n<EOS>\n"
+  },
+  {
+    "question": "What is a loss function?",
+    "answer": "A loss function measures how different a model's prediction is from the expected target. Training attempts to reduce this loss.",
+    "text": "<BOS>\nUser: What is a loss function?\nAssistant: A loss function measures how different a model's prediction is from the expected target. Training attempts to reduce this loss.\n<EOS>\n"
+  },
+  {
+    "question": "What is cross entropy loss?",
+    "answer": "Cross entropy loss is commonly used for classification and language modeling. It measures the difference between predicted token probabilities and the target token.",
+    "text": "<BOS>\nUser: What is cross entropy loss?\nAssistant: Cross entropy loss is commonly used for classification and language modeling. It measures the difference between predicted token probabilities and the target token.\n<EOS>\n"
+  },
+  {
+    "question": "What is an optimizer?",
+    "answer": "An optimizer updates the parameters of a neural network using gradients calculated from the loss.",
+    "text": "<BOS>\nUser: What is an optimizer?\nAssistant: An optimizer updates the parameters of a neural network using gradients calculated from the loss.\n<EOS>\n"
+  },
+  {
+    "question": "What is AdamW?",
+    "answer": "AdamW is an optimization algorithm commonly used to train neural networks. It combines adaptive gradient updates with decoupled weight decay.",
+    "text": "<BOS>\nUser: What is AdamW?\nAssistant: AdamW is an optimization algorithm commonly used to train neural networks. It combines adaptive gradient updates with decoupled weight decay.\n<EOS>\n"
+  },
+  {
+    "question": "What is a learning rate?",
+    "answer": "The learning rate controls how large the parameter updates are during optimization.",
+    "text": "<BOS>\nUser: What is a learning rate?\nAssistant: The learning rate controls how large the parameter updates are during optimization.\n<EOS>\n"
+  },
+  {
+    "question": "What happens if the learning rate is too high?",
+    "answer": "A learning rate that is too high can make training unstable or prevent the model from converging properly.",
+    "text": "<BOS>\nUser: What happens if the learning rate is too high?\nAssistant: A learning rate that is too high can make training unstable or prevent the model from converging properly.\n<EOS>\n"
+  },
+  {
+    "question": "What happens if the learning rate is too low?",
+    "answer": "A learning rate that is too low can make training very slow and may require many more optimization steps.",
+    "text": "<BOS>\nUser: What happens if the learning rate is too low?\nAssistant: A learning rate that is too low can make training very slow and may require many more optimization steps.\n<EOS>\n"
+  },
+  {
+    "question": "What is a batch?",
+    "answer": "A batch is a group of training examples processed together before an optimizer update.",
+    "text": "<BOS>\nUser: What is a batch?\nAssistant: A batch is a group of training examples processed together before an optimizer update.\n<EOS>\n"
+  },
+  {
+    "question": "What is an epoch?",
+    "answer": "An epoch is one complete pass through the training dataset.",
+    "text": "<BOS>\nUser: What is an epoch?\nAssistant: An epoch is one complete pass through the training dataset.\n<EOS>\n"
+  },
+  {
+    "question": "What is overfitting?",
+    "answer": "Overfitting happens when a model learns the training data too closely and performs worse on unseen validation data.",
+    "text": "<BOS>\nUser: What is overfitting?\nAssistant: Overfitting happens when a model learns the training data too closely and performs worse on unseen validation data.\n<EOS>\n"
+  },
+  {
+    "question": "What is validation data?",
+    "answer": "Validation data is data kept separate from training and used to evaluate how well a model generalizes.",
+    "text": "<BOS>\nUser: What is validation data?\nAssistant: Validation data is data kept separate from training and used to evaluate how well a model generalizes.\n<EOS>\n"
+  },
+  {
+    "question": "What is generalization?",
+    "answer": "Generalization is the ability of a trained model to perform well on data that it did not directly train on.",
+    "text": "<BOS>\nUser: What is generalization?\nAssistant: Generalization is the ability of a trained model to perform well on data that it did not directly train on.\n<EOS>\n"
+  },
+  {
+    "question": "What is a GPU?",
+    "answer": "A GPU is a processor designed for highly parallel computation. GPUs are widely used for training and running neural networks.",
+    "text": "<BOS>\nUser: What is a GPU?\nAssistant: A GPU is a processor designed for highly parallel computation. GPUs are widely used for training and running neural networks.\n<EOS>\n"
+  },
+  {
+    "question": "Why are GPUs useful for AI?",
+    "answer": "Neural network operations often involve large matrix computations that can be performed efficiently in parallel on GPUs.",
+    "text": "<BOS>\nUser: Why are GPUs useful for AI?\nAssistant: Neural network operations often involve large matrix computations that can be performed efficiently in parallel on GPUs.\n<EOS>\n"
+  },
+  {
+    "question": "What is VRAM?",
+    "answer": "VRAM is memory available on a graphics processor. AI workloads use it to store model parameters, activations, inputs, and other tensors.",
+    "text": "<BOS>\nUser: What is VRAM?\nAssistant: VRAM is memory available on a graphics processor. AI workloads use it to store model parameters, activations, inputs, and other tensors.\n<EOS>\n"
+  },
+  {
+    "question": "What is RAM?",
+    "answer": "RAM is the main working memory of a computer. Programs use RAM to temporarily store data and running processes.",
+    "text": "<BOS>\nUser: What is RAM?\nAssistant: RAM is the main working memory of a computer. Programs use RAM to temporarily store data and running processes.\n<EOS>\n"
+  },
+  {
+    "question": "What is storage?",
+    "answer": "Storage is persistent memory such as an SSD, hard drive, or USB drive that keeps files when the computer is turned off.",
+    "text": "<BOS>\nUser: What is storage?\nAssistant: Storage is persistent memory such as an SSD, hard drive, or USB drive that keeps files when the computer is turned off.\n<EOS>\n"
+  },
+  {
+    "question": "What is the difference between RAM and storage?",
+    "answer": "RAM is fast temporary working memory, while storage is persistent memory used to keep files and programs.",
+    "text": "<BOS>\nUser: What is the difference between RAM and storage?\nAssistant: RAM is fast temporary working memory, while storage is persistent memory used to keep files and programs.\n<EOS>\n"
+  },
+  {
+    "question": "What is CUDA?",
+    "answer": "CUDA is NVIDIA's parallel computing platform and programming model that allows software to use NVIDIA GPUs for general-purpose computation.",
+    "text": "<BOS>\nUser: What is CUDA?\nAssistant: CUDA is NVIDIA's parallel computing platform and programming model that allows software to use NVIDIA GPUs for general-purpose computation.\n<EOS>\n"
+  },
+  {
+    "question": "What is VRAM usage during model inference?",
+    "answer": "During inference, VRAM can be used for model parameters, intermediate activations, input tensors, and temporary computation.",
+    "text": "<BOS>\nUser: What is VRAM usage during model inference?\nAssistant: During inference, VRAM can be used for model parameters, intermediate activations, input tensors, and temporary computation.\n<EOS>\n"
+  },
+  {
+    "question": "What is a small AI model?",
+    "answer": "A small AI model has relatively few parameters and is designed to use less memory and computation than larger models.",
+    "text": "<BOS>\nUser: What is a small AI model?\nAssistant: A small AI model has relatively few parameters and is designed to use less memory and computation than larger models.\n<EOS>\n"
+  },
+  {
+    "question": "What are the advantages of small models?",
+    "answer": "Small models can be faster, cheaper to run, easier to deploy locally, and more suitable for low-resource hardware.",
+    "text": "<BOS>\nUser: What are the advantages of small models?\nAssistant: Small models can be faster, cheaper to run, easier to deploy locally, and more suitable for low-resource hardware.\n<EOS>\n"
+  },
+  {
+    "question": "What are the limitations of small models?",
+    "answer": "Small models usually have less capacity for complex language understanding, reasoning, knowledge storage, and generation quality.",
+    "text": "<BOS>\nUser: What are the limitations of small models?\nAssistant: Small models usually have less capacity for complex language understanding, reasoning, knowledge storage, and generation quality.\n<EOS>\n"
+  },
+  {
+    "question": "Can a small model be useful?",
+    "answer": "Yes. A small model can be useful for focused tasks when it is trained on appropriate data and supported by external tools when necessary.",
+    "text": "<BOS>\nUser: Can a small model be useful?\nAssistant: Yes. A small model can be useful for focused tasks when it is trained on appropriate data and supported by external tools when necessary.\n<EOS>\n"
+  },
+  {
+    "question": "Can a small model run locally?",
+    "answer": "Yes. A sufficiently small model can run locally on computers or other devices with enough memory and compute resources.",
+    "text": "<BOS>\nUser: Can a small model run locally?\nAssistant: Yes. A sufficiently small model can run locally on computers or other devices with enough memory and compute resources.\n<EOS>\n"
+  },
+  {
+    "question": "Can a small model use the internet?",
+    "answer": "Yes. The model can be connected to external search and webpage tools. The model handles language while the tools provide fresh information.",
+    "text": "<BOS>\nUser: Can a small model use the internet?\nAssistant: Yes. The model can be connected to external search and webpage tools. The model handles language while the tools provide fresh information.\n<EOS>\n"
+  },
+  {
+    "question": "What is web browsing for AI?",
+    "answer": "Web browsing allows an AI system to retrieve information from external websites instead of relying only on knowledge stored in its model parameters.",
+    "text": "<BOS>\nUser: What is web browsing for AI?\nAssistant: Web browsing allows an AI system to retrieve information from external websites instead of relying only on knowledge stored in its model parameters.\n<EOS>\n"
+  },
+  {
+    "question": "Why does AI need web search?",
+    "answer": "Web search can provide recent or changing information that may not be present in the model's training data.",
+    "text": "<BOS>\nUser: Why does AI need web search?\nAssistant: Web search can provide recent or changing information that may not be present in the model's training data.\n<EOS>\n"
+  },
+  {
+    "question": "What is a search query?",
+    "answer": "A search query is a phrase or set of keywords sent to a search system to retrieve relevant information.",
+    "text": "<BOS>\nUser: What is a search query?\nAssistant: A search query is a phrase or set of keywords sent to a search system to retrieve relevant information.\n<EOS>\n"
+  },
+  {
+    "question": "What is webpage retrieval?",
+    "answer": "Webpage retrieval is the process of obtaining content from a web page so that an AI system can analyze it.",
+    "text": "<BOS>\nUser: What is webpage retrieval?\nAssistant: Webpage retrieval is the process of obtaining content from a web page so that an AI system can analyze it.\n<EOS>\n"
+  },
+  {
+    "question": "Why should AI cite sources?",
+    "answer": "Sources help users understand where retrieved information came from and make important claims easier to verify.",
+    "text": "<BOS>\nUser: Why should AI cite sources?\nAssistant: Sources help users understand where retrieved information came from and make important claims easier to verify.\n<EOS>\n"
+  },
+  {
+    "question": "Can web search improve a small model?",
+    "answer": "Yes. A small model can use retrieved web information as external context, reducing the need to store all knowledge inside its parameters.",
+    "text": "<BOS>\nUser: Can web search improve a small model?\nAssistant: Yes. A small model can use retrieved web information as external context, reducing the need to store all knowledge inside its parameters.\n<EOS>\n"
+  },
+  {
+    "question": "What is Python?",
+    "answer": "Python is a general-purpose programming language known for readable syntax and a large ecosystem of libraries for AI, data science, automation, and software development.",
+    "text": "<BOS>\nUser: What is Python?\nAssistant: Python is a general-purpose programming language known for readable syntax and a large ecosystem of libraries for AI, data science, automation, and software development.\n<EOS>\n"
+  },
+  {
+    "question": "What is PyTorch?",
+    "answer": "PyTorch is a machine learning framework used to build, train, and run neural networks.",
+    "text": "<BOS>\nUser: What is PyTorch?\nAssistant: PyTorch is a machine learning framework used to build, train, and run neural networks.\n<EOS>\n"
+  },
+  {
+    "question": "What is a tensor?",
+    "answer": "A tensor is a multidimensional numerical data structure used extensively in machine learning frameworks such as PyTorch.",
+    "text": "<BOS>\nUser: What is a tensor?\nAssistant: A tensor is a multidimensional numerical data structure used extensively in machine learning frameworks such as PyTorch.\n<EOS>\n"
+  },
+  {
+    "question": "What is a checkpoint?",
+    "answer": "A checkpoint is a saved representation of a model's parameters and often its configuration and training information.",
+    "text": "<BOS>\nUser: What is a checkpoint?\nAssistant: A checkpoint is a saved representation of a model's parameters and often its configuration and training information.\n<EOS>\n"
+  },
+  {
+    "question": "Why save a model checkpoint?",
+    "answer": "Saving a checkpoint allows a trained model to be loaded later for inference, evaluation, or continued training.",
+    "text": "<BOS>\nUser: Why save a model checkpoint?\nAssistant: Saving a checkpoint allows a trained model to be loaded later for inference, evaluation, or continued training.\n<EOS>\n"
+  },
+  {
+    "question": "What is inference speed?",
+    "answer": "Inference speed describes how quickly a model processes input and produces an output.",
+    "text": "<BOS>\nUser: What is inference speed?\nAssistant: Inference speed describes how quickly a model processes input and produces an output.\n<EOS>\n"
+  },
+  {
+    "question": "What is Vijju 2.5 Eco?",
+    "answer": "Vijju 2.5 Eco is a lightweight experimental AI chatbot model designed to provide basic and deeper information while remaining small and portable.",
+    "text": "<BOS>\nUser: What is Vijju 2.5 Eco?\nAssistant: Vijju 2.5 Eco is a lightweight experimental AI chatbot model designed to provide basic and deeper information while remaining small and portable.\n<EOS>\n"
+  },
+  {
+    "question": "What is the goal of Vijju 2.5 Eco?",
+    "answer": "The goal of Vijju 2.5 Eco is to create a compact AI system that can run with limited resources and use external web tools for fresh information.",
+    "text": "<BOS>\nUser: What is the goal of Vijju 2.5 Eco?\nAssistant: The goal of Vijju 2.5 Eco is to create a compact AI system that can run with limited resources and use external web tools for fresh information.\n<EOS>\n"
+  },
+  {
+    "question": "Can Vijju browse the web?",
+    "answer": "Vijju can be connected to an external web search and webpage retrieval system. The local model handles language while the external tools retrieve fresh information.",
+    "text": "<BOS>\nUser: Can Vijju browse the web?\nAssistant: Vijju can be connected to an external web search and webpage retrieval system. The local model handles language while the external tools retrieve fresh information.\n<EOS>\n"
+  },
+  {
+    "question": "Is web browsing part of the model weights?",
+    "answer": "No. Web browsing is an external capability. The model and the browser or search system are separate components.",
+    "text": "<BOS>\nUser: Is web browsing part of the model weights?\nAssistant: No. Web browsing is an external capability. The model and the browser or search system are separate components.\n<EOS>\n"
+  },
+  {
+    "question": "Can Vijju work without internet?",
+    "answer": "The local model can still process its learned information without internet, but fresh web information requires an internet connection.",
+    "text": "<BOS>\nUser: Can Vijju work without internet?\nAssistant: The local model can still process its learned information without internet, but fresh web information requires an internet connection.\n<EOS>\n"
+  },
+  {
+    "question": "Why is Vijju designed to be small?",
+    "answer": "A small model is easier to store, transfer, and run on computers with limited resources.",
+    "text": "<BOS>\nUser: Why is Vijju designed to be small?\nAssistant: A small model is easier to store, transfer, and run on computers with limited resources.\n<EOS>\n"
+  },
+  {
+    "question": "Where can Vijju be stored?",
+    "answer": "The model checkpoint can be stored on local storage such as an SSD, hard drive, or USB drive, provided the required software environment is available.",
+    "text": "<BOS>\nUser: Where can Vijju be stored?\nAssistant: The model checkpoint can be stored on local storage such as an SSD, hard drive, or USB drive, provided the required software environment is available.\n<EOS>\n"
+  },
+  {
+    "question": "What is backpropagation?",
+    "answer": "Backpropagation calculates how the loss changes with respect to model parameters by propagating gradients backward through the neural network.",
+    "text": "<BOS>\nUser: What is backpropagation?\nAssistant: Backpropagation calculates how the loss changes with respect to model parameters by propagating gradients backward through the neural network.\n<EOS>\n"
+  },
+  {
+    "question": "What is a gradient?",
+    "answer": "A gradient describes how a function changes with respect to its parameters. Optimizers use gradients to update neural network parameters.",
+    "text": "<BOS>\nUser: What is a gradient?\nAssistant: A gradient describes how a function changes with respect to its parameters. Optimizers use gradients to update neural network parameters.\n<EOS>\n"
+  },
+  {
+    "question": "What is gradient descent?",
+    "answer": "Gradient descent is an optimization method that updates parameters in a direction that reduces the training loss.",
+    "text": "<BOS>\nUser: What is gradient descent?\nAssistant: Gradient descent is an optimization method that updates parameters in a direction that reduces the training loss.\n<EOS>\n"
+  },
+  {
+    "question": "What is autoregressive generation?",
+    "answer": "Autoregressive generation produces text one token at a time, using previously generated tokens as context for predicting the next token.",
+    "text": "<BOS>\nUser: What is autoregressive generation?\nAssistant: Autoregressive generation produces text one token at a time, using previously generated tokens as context for predicting the next token.\n<EOS>\n"
+  },
+  {
+    "question": "What is temperature in text generation?",
+    "answer": "Temperature changes the sharpness of the probability distribution used during sampling. Higher values generally produce more varied choices, while lower values make generation more deterministic.",
+    "text": "<BOS>\nUser: What is temperature in text generation?\nAssistant: Temperature changes the sharpness of the probability distribution used during sampling. Higher values generally produce more varied choices, while lower values make generation more deterministic.\n<EOS>\n"
+  },
+  {
+    "question": "What is greedy decoding?",
+    "answer": "Greedy decoding selects the highest-probability next token at every generation step.",
+    "text": "<BOS>\nUser: What is greedy decoding?\nAssistant: Greedy decoding selects the highest-probability next token at every generation step.\n<EOS>\n"
+  },
+  {
+    "question": "What is top-k sampling?",
+    "answer": "Top-k sampling restricts the next-token choices to the k highest-probability tokens before sampling from them.",
+    "text": "<BOS>\nUser: What is top-k sampling?\nAssistant: Top-k sampling restricts the next-token choices to the k highest-probability tokens before sampling from them.\n<EOS>\n"
+  },
+  {
+    "question": "What is model quantization?",
+    "answer": "Quantization reduces the numerical precision used to represent model parameters or computations, which can reduce memory usage and sometimes improve inference efficiency.",
+    "text": "<BOS>\nUser: What is model quantization?\nAssistant: Quantization reduces the numerical precision used to represent model parameters or computations, which can reduce memory usage and sometimes improve inference efficiency.\n<EOS>\n"
+  },
+  {
+    "question": "What is knowledge distillation?",
+    "answer": "Knowledge distillation trains a smaller model to learn useful behavior from a larger teacher model.",
+    "text": "<BOS>\nUser: What is knowledge distillation?\nAssistant: Knowledge distillation trains a smaller model to learn useful behavior from a larger teacher model.\n<EOS>\n"
+  },
+  {
+    "question": "What is fine-tuning?",
+    "answer": "Fine-tuning continues training a pretrained model on a more specific dataset so that it becomes better suited to a particular task or domain.",
+    "text": "<BOS>\nUser: What is fine-tuning?\nAssistant: Fine-tuning continues training a pretrained model on a more specific dataset so that it becomes better suited to a particular task or domain.\n<EOS>\n"
+  }
+]
